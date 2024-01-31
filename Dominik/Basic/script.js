@@ -65,3 +65,14 @@ document.write("<br><br>");
 
 //Exercise 6 -----------------------------------------------------------
 document.write("<br>Exercise 6<hr><br>");
+
+function degreesToRadians(degrees) {
+  document.write(degrees * (Math.PI/180));
+}
+
+degreesToRadians(90);
+
+document.write("<br><br>");
+
+//Exercise 7 -----------------------------------------------------------
+document.write("<br>Exercise 7<hr><br>");
