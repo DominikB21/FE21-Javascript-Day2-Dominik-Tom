@@ -1,4 +1,5 @@
 //Exercise 1 ---------------------------------------------------------
+document.write("Exercise 1<hr>");
 
 let randomTemp = Math.floor(Math.random() * 32 - 5);
 console.log(randomTemp);
@@ -13,14 +14,19 @@ function temperatureText() {
 
 temperatureText(randomTemp);
 
-document.write("<br><br>");
+document.write("<br><br>")
 
 //Exercise 2 ----------------------------------------------------------
+document.write("<br>Exercise 2<hr><br>");
+
+function randomFood() {
+  return favoriteFoods[Math.floor(Math.random() * favoriteFoods.length)];
+}
 
 let favoriteFoods = ["pizza","hamburger","ice cream","chocolate"];
 
-function randomFood() {
-  
-}
+document.write(randomFood());
 
-randomFood();
+document.write("<br><br>")
+
+//Exercise 3 ----------------------------------------------------------
