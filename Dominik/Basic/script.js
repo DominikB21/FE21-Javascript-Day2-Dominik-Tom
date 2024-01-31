@@ -1,7 +1,7 @@
 //Exercise 1 ---------------------------------------------------------
 document.write("Exercise 1<hr>");
 
-let randomTemp = Math.floor(Math.random() * 32 - 5);
+let randomTemp = Math.floor(Math.random() * 31 - 5);
 console.log(randomTemp);
 
 function temperatureText() {
@@ -42,4 +42,15 @@ document.write("<br><br>");
 
 //Exercise 4 ----------------------------------------------------------
 document.write("<br>Exercise 4<hr><br>");
+
+function ageCalculator(birthYear, currentYear) {
+  document.write(`You are either ${currentYear-birthYear} or ${currentYear-birthYear-1}`);
+}
+
+ageCalculator(2001, 2024);
+
+document.write("<br><br>");
+
+//Exercise 5 ----------------------------------------------------------
+document.write("<br>Exercise 5<hr><br>");
 
