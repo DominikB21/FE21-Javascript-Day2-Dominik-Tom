@@ -14,7 +14,7 @@ function temperatureText() {
 
 temperatureText(randomTemp);
 
-document.write("<br><br>")
+document.write("<br><br>");
 
 //Exercise 2 ----------------------------------------------------------
 document.write("<br>Exercise 2<hr><br>");
@@ -27,6 +27,19 @@ let favoriteFoods = ["pizza","hamburger","ice cream","chocolate"];
 
 document.write(randomFood());
 
-document.write("<br><br>")
+document.write("<br><br>");
 
 //Exercise 3 ----------------------------------------------------------
+document.write("<br>Exercise 3<hr><br>");
+
+function crystalGazer(numberOfChildren, partnersName, geographicLocation, jobTitle) {
+  document.write(`You will be a ${jobTitle} in ${geographicLocation} and married to ${partnersName} with ${numberOfChildren} kids.`);
+}
+
+crystalGazer(2, "Patricia", "Vienna", "Programmer");
+
+document.write("<br><br>");
+
+//Exercise 4 ----------------------------------------------------------
+document.write("<br>Exercise 4<hr><br>");
+
