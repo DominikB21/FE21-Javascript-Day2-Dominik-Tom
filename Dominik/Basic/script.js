@@ -76,3 +76,12 @@ document.write("<br><br>");
 
 //Exercise 7 -----------------------------------------------------------
 document.write("<br>Exercise 7<hr><br>");
+
+function areaAndVolume (width, height, depth) {
+    let area = width * height;
+    let volume = width * height * depth;
+    document.write(`The area of the box is: ${area}<br>
+    The volume of the box is: ${volume}`);
+}
+
+areaAndVolume (5, 8, 12);
