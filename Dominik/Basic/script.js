@@ -54,3 +54,14 @@ document.write("<br><br>");
 //Exercise 5 ----------------------------------------------------------
 document.write("<br>Exercise 5<hr><br>");
 
+function ageCalculatorNew(birthYear) {
+  let currentYear = new Date().getFullYear();
+  document.write(`You are either ${currentYear-birthYear} or ${currentYear-birthYear-1}`);
+}
+
+ageCalculatorNew(2001);
+
+document.write("<br><br>");
+
+//Exercise 6 -----------------------------------------------------------
+document.write("<br>Exercise 6<hr><br>");
